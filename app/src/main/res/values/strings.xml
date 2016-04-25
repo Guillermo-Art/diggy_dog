@@ -3,4 +3,26 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="user_registered">Usuario registrado!</string>
+    <string name="operation_failed">La operación falló. Intente nuevamente!</string>
+    <string name="user_loggedIn">Inicio de sesión!</string>
+    <string name="sign_up_error_title">Error al crear cuenta!</string>
+    <string name="log_in_error_title">Error al iniciar sesión!</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_pets</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_acount</item>
+        <item>@string/nav_item_logout</item>
+
+    </string-array>
+
+    <string name="nav_item_home">Inicio</string>
+    <string name="nav_item_pets">Mascotas</string>
+    <string name="nav_item_friends">Amigos</string>
+    <string name="nav_item_acount">Cuenta</string>
+    <string name="nav_item_logout">Cerrar Sesión</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 </resources>
