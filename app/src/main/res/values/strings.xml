@@ -25,4 +25,13 @@
     <string name="nav_item_logout">Cerrar Sesión</string>
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_friends">Hello blank fragment 1</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_find">Hello blank fragment 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_profile">Hello blank fragment 3</string>
 </resources>

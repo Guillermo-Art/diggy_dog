@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:fitsSystemWindows="true">
+    android:fitsSystemWindows="true"
+    android:background="@color/primary">
 
     <LinearLayout
         android:orientation="vertical"
@@ -13,9 +14,9 @@
         android:paddingLeft="24dp"
         android:paddingRight="24dp">
 
-        <ImageView android:src="@drawable/header_logo"
+        <ImageView android:src="@drawable/diggy_dog_2"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="172dp"
             android:layout_marginBottom="24dp"
             android:layout_gravity="center_horizontal" />
 
@@ -29,7 +30,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords"
-                android:hint="Nombre" />
+                android:hint="Nombre"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"/>
         </android.support.design.widget.TextInputLayout>
 
         <!-- LastName Label -->
@@ -42,7 +45,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords"
-                android:hint="Apellidos" />
+                android:hint="Apellidos"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"/>
         </android.support.design.widget.TextInputLayout>
 
         <!--  Email Label -->
@@ -55,7 +60,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
-                android:hint="Email" />
+                android:hint="Email"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"/>
         </android.support.design.widget.TextInputLayout>
 
         <!-- Password Label -->
@@ -68,7 +75,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:hint="Password"/>
+                android:hint="Password"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"/>
         </android.support.design.widget.TextInputLayout>
 
         <!-- Signup Button -->
@@ -87,7 +96,9 @@
             android:layout_marginBottom="24dp"
             android:text="Ya eres miembro? Login"
             android:gravity="center"
-            android:textSize="16dip"/>
+            android:textSize="16dip"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 </ScrollView>
